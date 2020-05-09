@@ -1,4 +1,4 @@
-# Fabric Example Mod
+# Mineable Infested Blocks Mod
 
 ## Description
 
