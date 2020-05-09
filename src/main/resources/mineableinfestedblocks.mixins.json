@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.hyper_pigeon.mineable_infested_blocks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MineableInfestedBlocksMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

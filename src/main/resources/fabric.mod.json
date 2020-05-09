@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "mineableinfestedblocks",
+  "version": "${version}",
+
+  "name": "Mineable Infested Blocks Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://github.com/HyperPigeon",
+    "sources": "https://github.com/HyperPigeon/MineableInfestedBlocks"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/mineableinfestedblocks/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.hyper_pigeon.mineable_infested_blocks.MineableInfestedBlocksMod"
+    ]
+  },
+  "mixins": [
+    "mineableinfestedblocks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
